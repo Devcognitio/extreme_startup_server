@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-alpine
+FROM openjdk:11-jdk-slim
 VOLUME /tmp
 
 COPY . .
